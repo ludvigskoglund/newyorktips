@@ -1,0 +1,255 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+  background-color: #F0f0f0;
+  
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 50%; 
+  padding: 10px;
+  background-color: #FFFFFF;
+
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+.byline p {
+  margin-top: 0;
+}
+
+.label-xl{
+   font-size: 25px;
+
+}
+.label-s{
+   font-size: 10px;
+   
+}
+.label-m{
+   font-size: 15px;
+   
+}
+
+.label-l{
+   font-size: 20px;
+   
+}
+.badge{
+  background-color: #FFFFFF;
+  color:#337ab7 ;
+
+}
+
+
+a.small{
+  font-size: 15px;
+  opacity: 0.4;
+  
+}
+
+a.medium{
+  font-size: 23px;
+  opacity: 0.6;
+}
+
+a.large{
+  font-size: 31px;
+  opacity: 0.8;
+}
+
+a.xLarge{
+  font-size: 39px;
+  
+}
+
+
+
+.taggar a:hover{
+
+    background-color: #18bc9c;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 1;
+
+
+}
+
+.circular {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+
+  }
+
+  .circular-sm {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+
+  }
+
+  .user{
+    width: 250px;
+    border: 1px solid;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-top: 5px;
+     padding-right: 5px;
+      padding-left: 5px;
+       padding-bottom: 5px;
+       background-color: #f0f0f0;
+
+  }
+
+  #users:hover{
+    background-color: #18bc9c;
+    color: #FFFFFF;
+
+  }
+
+#form-element-question {
+  width: 400px;
+  height: 300px;
+  overflow: auto;
+}
+
+
+.comment-name {
+  color: #18bc9c;
+  font-size: 12px;
+}
+
+.comment-time {
+  
+  font-size: 12px;
+}
+
+.answer {
+  height:100px;
+  overflow: auto;
+}
+
+.commentText{
+  margin-top: 0;
+  padding: 0;
+}
+
+#form-element-answer {
+    width: 400px;
+  height: 300px;
+  overflow: auto;
+}
+
+.red {
+  color: #e74c3c;
+}
+.blue{
+  color:#3498db;
+}
+
+.yellow{
+  color:#f39c12;
+}
+
+.darkblue{
+ color: #2c3e50;
+}
+table a:not(.btn),
+.table a:not(.btn) {
+  text-decoration: none;
+}
+
+
